@@ -1,17 +1,17 @@
-var Emitter = require('emitter');
-var classes = require('classes');
-var transform = require('transform-property');
-var redraw = require('redraw');
-var events = require('events');
-var afterTransition = require('after-transition');
-var scale = require('scale-to-bounds');
-var viewport = require('viewport');
-var has3d = require('has-translate3d');
-var overlay = require('overlay');
-var delegate = require('delegate');
-var attr = require('get-attribute');
-var target = require('target');
-var prevent = require('prevent');
+var Emitter = require('component-emitter');
+var classes = require('component-classes');
+var transform = require('component-transform-property');
+var redraw = require('ianstormtaylor-redraw');
+var events = require('component-events');
+var afterTransition = require('anthonyshort-after-transition');
+var scale = require('bmcmahen-scale-to-bounds');
+var viewport = require('bmcmahen-viewport');
+var has3d = require('component-has-translate3d');
+var overlay = require('bmcmahen-overlay');
+var delegate = require('component-delegate');
+var attr = require('javve-get-attribute');
+var target = require('bmcmahen-target');
+var prevent = require('yields-prevent');
 
 /**
  * Create the supported translate string.

@@ -1,0 +1,31 @@
+{
+  "name": "bmcmahen-image-zoom",
+  "description": "zoom a thumbnail to its full size",
+  "version": "0.0.1",
+  "keywords": [
+    "thumbnail",
+    "image",
+    "gallery"
+  ],
+  "main": "index.js",
+  "styles": [
+    "image-zoom.css"
+  ],
+  "dependencies": {
+    "component-classes": "git://github.com/npmcomponent/component-classes.git",
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git",
+    "component-transform-property": "git://github.com/npmcomponent/component-transform-property.git",
+    "ianstormtaylor-redraw": "git://github.com/npmcomponent/ianstormtaylor-redraw.git",
+    "component-events": "git://github.com/npmcomponent/component-events.git",
+    "anthonyshort-after-transition": "git://github.com/npmcomponent/anthonyshort-after-transition.git",
+    "bmcmahen-scale-to-bounds": "git://github.com/npmcomponent/bmcmahen-scale-to-bounds.git",
+    "bmcmahen-viewport": "git://github.com/npmcomponent/bmcmahen-viewport.git",
+    "component-has-translate3d": "git://github.com/npmcomponent/component-has-translate3d.git",
+    "bmcmahen-overlay": "git://github.com/npmcomponent/bmcmahen-overlay.git",
+    "component-delegate": "git://github.com/npmcomponent/component-delegate.git",
+    "javve-get-attribute": "git://github.com/npmcomponent/javve-get-attribute.git",
+    "bmcmahen-target": "git://github.com/npmcomponent/bmcmahen-target.git",
+    "yields-prevent": "git://github.com/npmcomponent/yields-prevent.git"
+  },
+  "license": "MIT"
+}
